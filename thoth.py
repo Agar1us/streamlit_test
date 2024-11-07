@@ -2,10 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
-from termcolor import colored
 import base64
 
-import streamlit_scrollable_textbox as stx
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import declarative_base, declared_attr
 from sqlalchemy.orm import sessionmaker
